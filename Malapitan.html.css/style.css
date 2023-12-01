@@ -1,0 +1,152 @@
+body {
+        
+        margin: 0;
+        padding: 0;
+        font-family: 'Arial', sans-serif;
+      }
+      
+
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    background-color: rgb(66, 16, 16);
+    position: sticky;
+    top: 0;
+  }
+  .navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+  }
+  .navbar ul li{
+    font-family: Sans-Serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+   .navbar ul li a{
+     text-decoration: none;
+     color: white;
+     padding: 8px 25px;
+     transition: all .5s ease;
+   }
+   .navbar ul li a:hover{
+     background-color: white;
+     color: black;
+     box-shadow: 0 0 10 white;
+   }
+  
+
+  header {
+        text-align: center;
+        color: whitesmoke;
+        padding: 1rem;
+      }
+      
+      /* Rest of your existing CSS for the header */
+      
+  section {
+    min-height: 100vh;
+    padding: 3rem;
+    background: url(coffee.jpg) center/cover no-repeat;
+  }
+  .main-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .coffee-image img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  /* Home Section */
+ #home{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    justify-content: flex-start;
+    align-items: left;
+    color: white;
+   }
+
+   #home > header {
+   color: rgb(66, 16, 16);
+   }
+
+    /* About Section */
+ #about{
+  display:flex;
+  flex-direction: column;
+  background-color: transparent;
+  height: 100%;
+  justify-content: flex-start;
+  align-items: left;
+  color: white;
+  text-align: justify;
+ }
+
+  #about header{
+  color:rgb(66, 16, 16);
+  }
+
+    /* About Contact */
+ #contact{
+  display:flex;
+  flex-direction: row;
+  background-color: white;
+  height: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+ }
+  
+  .description {
+    max-width: 500px;
+  }
+  
+  .subscribe {
+    text-align: center;
+    padding: 2rem;
+    background-color: #ecf0f1;
+  }
+  
+  .subscribe form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .subscribe label {
+    margin-bottom: 0.5rem;
+  }
+  
+  .subscribe input {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    margin-top: 1rem;
+    background-color:  rgb(66, 16, 16);
+    color: #ecf0f1;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color:  rgb(66, 16, 16);
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color:rgb(66, 16, 16);
+    color: #ecf0f1;
+  }
